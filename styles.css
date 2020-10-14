@@ -46,6 +46,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   padding: 3.5rem;
   border-right: 5px solid #000;
@@ -65,6 +66,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.comments__container {
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  margin-bottom: 3px;
+}
+.comments__info {
+  margin-top: 3rem;
+  font-size: 1.8rem;
 }
 
 .footer {
@@ -130,7 +142,6 @@ body {
   }
   .heading-1 {
     font-size: 1.8rem;
-    text-align: center;
   }
   .main {
     grid-template-columns: repeat(3, 1fr);
@@ -153,6 +164,9 @@ body {
     margin-bottom: 1.5rem;
     margin-top: 0.5rem;
   }
+  .comments__info {
+    font-size: 1.2rem;
+  }
   .footer__contact__list {
     font-size: 1.2rem;
   }
@@ -174,6 +188,9 @@ body {
     font-size: 1.6rem;
   }
   .footer__contact__list {
+    font-size: 1rem;
+  }
+  .comment {
     font-size: 1rem;
   }
 }
