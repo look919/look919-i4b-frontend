@@ -4,7 +4,7 @@ const fetchComments = async (fetchLink) => {
   if(res.ok){
     let comments = await res.json();     
     console.log(comments);
-    comments = comments.slice(0,10)
+    comments = comments.slice(0,7)
 
     comments.forEach((comment) => {
       let span = document.createElement('span');
